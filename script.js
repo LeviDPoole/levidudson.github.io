@@ -11,7 +11,7 @@ function pixelToAscii(r, g, b) {
 
 // Function to generate ASCII art from video frame
 function generateAsciiArt(video) {
-    const pixelation = 100;
+    const pixelation = 10;
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
     canvas.width = video.videoWidth;
