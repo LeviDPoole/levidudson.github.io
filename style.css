@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#asciiOutput {
+    font-family: monospace;
+    font-size: 10px;
+    white-space: pre;
+    position: alute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}

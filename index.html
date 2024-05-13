@@ -1,5 +1,39 @@
-<html>
- <body>
-   <h1> Hellow World </h1>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Webcam</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #asciiOutput {
+            font-family: monospace;
+            font-size: 20px;
+            white-space: pre;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            color: white;
+            overflow: hidden;
+        }
+
+        /* Hide the video element */
+        video {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <pre id="asciiOutput"></pre>
+    <script src="script.js"></script>
+</body>
 </html>
